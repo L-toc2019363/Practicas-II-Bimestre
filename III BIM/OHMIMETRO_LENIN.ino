@@ -1,3 +1,14 @@
+/*
+ * Fundacion Kinal
+ * Centro educativo tecnico laboral Kinal
+ * Electronica
+ * Grado: Quinto
+ * Sección: A
+ * Curso: Taller de electronica digital y reparación de computadoras I
+ * Nombre: lenin toc
+ * Carnet: 2019363
+ * Proyecto: hometro
+*/
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>  
 #define direccion_lcd 0x27
