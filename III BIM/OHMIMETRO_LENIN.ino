@@ -36,7 +36,7 @@ void loop() {
   int lectura_de_pin = analogRead(resistencia2);
   float voltaje = lectura_de_pin * (5.0 / 1023.0);
   float resistencia2 = (lectura_de_pin*resistencia1 / (5.0 - voltaje));
-
+  int resultado = (resistencia2/2);
   lcd.setCursor(0, 0);
   lcd.print("Voltaje: ");
   lcd.print(voltaje);
@@ -44,7 +44,7 @@ void loop() {
 
   lcd.setCursor(0, 1);
   lcd.print("Resistencia :");
-  lcd.print(resistencia2);
+  lcd.print(resultado);
   lcd.print(" ohmios");
 
   delay(1000);
