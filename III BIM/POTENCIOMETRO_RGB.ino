@@ -1,3 +1,14 @@
+/*
+ * Fundacion Kinal
+ * Centro educativo tecnico laboral Kinal
+ * Electronica
+ * Grado: Quinto
+ * Sección: A
+ * Curso: Taller de electronica digital y reparación de computadoras I
+ * Nombre: lenin toc
+ * Carnet: 2019363
+ * Proyecto: potenciometro RGB
+*/
 #define led_verde 10
 #define led_azul 11
 #define led_rojo 6
